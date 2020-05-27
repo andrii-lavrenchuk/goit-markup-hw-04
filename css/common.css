@@ -113,6 +113,16 @@ img {
 .address-list {
   display: flex;
 }
+
+/* .address-list > .item::before {
+  content: ' 1';
+  background-size: 16px 12px;
+  background-color: teal;
+  background-image: url(../images/phone.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
 .address-list .item + .item {
   display: block;
   margin-left: 50px;

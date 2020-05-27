@@ -11,14 +11,26 @@
 
 .hero {
   /* outline: 2px solid tomato; */
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../images/hero-img\(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .hero .hero-title {
   margin-top: 0;
   margin-bottom: 46px;
+  padding-top: 200px;
 
   color: var(--third-color);
-  background-color: #99c7e4;
 
   font-weight: 900;
   font-size: 44px;
