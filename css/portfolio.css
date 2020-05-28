@@ -11,6 +11,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  cursor: pointer;
 }
 
 .portfolio .button:focus,
@@ -45,6 +46,8 @@
   margin-bottom: 30px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
   overflow: hidden;
 }
 

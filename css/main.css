@@ -88,6 +88,33 @@
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
+
+.features .item::before {
+  content: '';
+  display: block;
+  height: 120px;
+  border-radius: 4px;
+  background-color: var(--secondary-background-color);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item.icon-antenna::before {
+  background-image: url(../images/antenna.svg);
+}
+
+.item.icon-clock::before {
+  background-image: url(../images/clock.svg);
+}
+
+.item.icon-monitor::before {
+  background-image: url(../images/monitor.svg);
+}
+
+.item.icon-astronaut::before {
+  background-image: url(../images/astronaut.svg);
+}
+
 .features .item:nth-child(4n) {
   margin-right: 0;
 }
@@ -169,14 +196,39 @@
   border-radius: 4px;
 
   background-color: var(--third-color);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
 }
 .teammember-photo {
   border-radius: 4px 4px 0px 0px;
 }
 .item .social-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 16px;
+}
+
+.item-link .link {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item-link .instagram {
+  background-image: url(../images/social-links/instagram.svg);
+}
+
+.item-link .twitter {
+  background-image: url(../images/social-links/twitter.svg);
+}
+
+.item-link .facebook {
+  background-image: url(../images/social-links/facebook.svg);
+}
+.item-link .linkedin {
+  background-image: url(../images/social-links/linkedin.svg);
 }
 
 .team-list .teammate {
@@ -213,6 +265,41 @@
 .customers-list .item {
   width: calc((100% - 150px) / 6);
   margin-right: 30px;
+}
+
+.customers-list .item::before {
+  content: '';
+  display: block;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.item.customer-logo-1::before {
+  background-image: url(../images/clients-logo/logo-1.svg);
+}
+
+.item.customer-logo-2::before {
+  background-image: url(../images/clients-logo/logo-2.svg);
+}
+
+.item.customer-logo-3::before {
+  background-image: url(../images/clients-logo/logo-3.svg);
+}
+
+.item.customer-logo-4::before {
+  background-image: url(../images/clients-logo/logo-4.svg);
+}
+
+.item.customer-logo-5::before {
+  background-image: url(../images/clients-logo/logo-5.svg);
+}
+
+.item.customer-logo-6::before {
+  background-image: url(../images/clients-logo/logo-6.svg);
 }
 
 .customers-list .item:nth-child(6n) {
