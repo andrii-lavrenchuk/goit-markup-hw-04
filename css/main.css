@@ -24,6 +24,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #000000;
 }
 .hero .hero-title {
   margin-top: 0;
@@ -239,9 +240,11 @@
   width: 20px;
   height: 20px;
 }
-.social-link-icon:focus,
-.social-link-icon:hover {
+
+.social-link-icon:hover,
+.social-link-icon:focus {
   background-color: var(--accent-color);
+
   fill: var(--third-color);
 }
 

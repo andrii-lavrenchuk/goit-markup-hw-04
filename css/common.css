@@ -143,8 +143,8 @@ img {
   letter-spacing: 0.02em;
 }
 
-.address-list .link:focus,
-.address-list .link:hover {
+.address-list .link:hover,
+.address-list .link:focus {
   color: var(--accent-color);
 }
 
@@ -163,7 +163,7 @@ img {
   fill: var(--secondary-text-color);
 }
 
-.address-list .email-icon:focus,
+/* .address-list .email-icon:focus,
 .address-list .email-icon:hover {
   fill: var(--accent-color);
 }
@@ -171,7 +171,7 @@ img {
 .address-list .phone-icon:focus,
 .address-list .phone-icon:hover {
   fill: var(--accent-color);
-}
+} */
 
 /* .address-list .email-icon::before {
   content: '';
